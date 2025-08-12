@@ -1,0 +1,170 @@
+* {
+margin: 0;
+padding: 0;
+
+}
+
+header{
+     border-bottom: 10px solid rgb(86, 189, 39);
+}
+
+.header {
+display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 15%, rgba(87, 199, 121, 1) 63%);
+   
+
+
+}
+.header img {
+
+width: 10%;
+
+
+}
+
+nav {
+
+text-align: center;
+background-color: #2A7B9B;  
+padding: 1em; 
+}
+
+
+button {
+
+
+    border: 1px solid white;
+    background-color: #57C779;
+    font-weight: 100;
+    border-radius: 10px 0px 10px 0px;
+    padding: 0.5em 1em;
+    margin-right: 1em;
+
+}
+
+a {
+
+
+    text-decoration: none;
+    color: black;
+    font-size: x-small;
+    padding: 0.5em;
+
+}
+button:hover{
+    background-color: white;
+}
+
+main {
+
+background-size: cover;
+width: 100%;
+height: 50vh;
+text-align: center;
+
+background-image: url("img/fond.avif");
+background-size: cover;
+
+}
+section{
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 100%;
+    width: 50%;
+    margin: auto;
+}
+
+article{
+    background-color: #57C779;
+    height: 30vh;
+}
+
+.article {
+
+border-radius: 10px 10px 10px 10px;
+padding: 0.7em;
+width: 10em;
+
+}
+footer{
+    background-color: #57C779;
+    height: 10vh;
+}
+
+/* STOP!!!!! */
+
+
+
+
+/* Accueil */
+ h2 {
+text-align: start;
+padding: 1em 0;
+
+color: rgba(219, 209, 205, 0.936);
+font-weight: bolder;
+font-size: 20px;
+
+}
+.article:hover{
+    border: 1px solid green;
+    background-color: white;
+}
+
+/* Selecteurs */
+
+
+p{
+    color: black;
+}
+
+article{
+    padding: 0.5em;
+    text-align: left;
+}
+
+#selecteurs p:nth-child(9n+1){
+
+color: pink;
+}
+#selecteurs p:nth-child(5),
+#selecteurs p:nth-child(6)
+{
+    color: black;
+}
+
+section {
+
+    background-color: #57C779;
+}
+
+
+
+.haut {
+
+    background-color: yellow;
+
+}
+
+.gauche {
+
+    background-color: green;
+    float: left;
+    height: 190px;
+
+}
+
+.droite {
+
+    background-color: aqua;
+     float: left;
+    height: 190px;
+    width: 310px;
+
+}
+
+
+
